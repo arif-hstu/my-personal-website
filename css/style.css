@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+}
+h1 {
+    font-family:  'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height: 2vmin;
+    font-weight: 400;
+    color: #363958;
+}
+
+h2 {
+    font-family:  'Bebas Neue', cursive;
+    font-size: 48px;
+    line-height: 2vmin;
+    font-weight: 400;
+    color: #363958;
+}
+
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(49, 49, 49);
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #363958;
+}
+
+
+/* top-banner */
+.top-banner {
+    height: 80vmin;
+}
+
+.highlighted-text {
+    color: #FF8367;
+}
+
+.half-width {
+    margin-left: 5%;
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width a{  
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, #FF8063, #F46060);
+    font-size: 16px;
+    border-radius: 7px;
+    color: #fff;   
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.half-width p{
+    margin-bottom: 3%;
+}  
+/* end of top-banner */
+
+/* about section */
+.about-section {
+    height: 80vmin;
+    padding-bottom: 50px;
+}
+/* end of about section */
+
+/* project-section */
+.project-section {
+    background-color: #F8F9FC;
+    height: 80vmin;
+    padding: 10vmin;
+}
+.project-section >h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.project-section .project {
+    margin-left: 5%;
+    width: 25%;
+    float: left;
+    padding-left: 2%;
+    /* border: 1px solid red; */
+    padding: 13px 13px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 19px;
+    background-color: #fff;
+}
+
+.project-section .project >img {
+    width: 100%;
+    text-align: center;
+} 
+
+.project-section .projects {
+    margin-top: 15vmin;
+}
+
+/* end of project-section */
+
+/* chat section */
+.chat-section {
+    height: 80vmin;
+    text-align: center;
+}
+
+.chat-section h1 {
+    font-size: 5vmin;
+    text-transform: uppercase;
+}
+
+.chat-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.chat-section img {
+    width: 60%;
+    position: absolute;
+    z-index: -5;
+}
+
+.chat-section a{  
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, #FF8063, #F46060);
+    font-size: 16px;
+    border-radius: 7px;
+    color: #fff;   
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chat-section .chat-data {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.chat-section .heading {
+    align-self: left;
+    background-color: red;
+}
+
+.chat-section .chat-link {
+    align-self: right;
+    background-color: red;
+
+}
+
+
+/* .chat-section .image-container img {
+    width: 60%;
+} */
+
+/* end of chat section */
