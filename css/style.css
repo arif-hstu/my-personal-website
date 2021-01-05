@@ -112,24 +112,15 @@ h4 {
 /* chat section */
 .chat-section {
     height: 80vmin;
-    text-align: center;
+    margin: auto;
+    width: 60%;
+
+  }
 }
 
 .chat-section h1 {
-    font-size: 5vmin;
+    font-size: 4vmin;
     text-transform: uppercase;
-}
-
-.chat-section {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.chat-section img {
-    width: 60%;
-    position: absolute;
-    z-index: -5;
 }
 
 .chat-section a{  
@@ -144,22 +135,21 @@ h4 {
     font-family: 'Roboto', sans-serif;
 }
 
-.chat-section .chat-data {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-
-.chat-section .heading {
-    align-self: left;
+.chat-section .content-holder {
+    background-image: url(../images/chat-holder.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    background-size: 100%;
+    background-position: center;
     background-color: red;
 }
 
-.chat-section .chat-link {
-    align-self: right;
-    background-color: red;
 
+.chat-section .content-holder h1 {
+    float: left;
+}
+.chat-section .content-holder a {
+    float: right;
 }
 
 
