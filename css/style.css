@@ -115,7 +115,6 @@ h4 {
     margin: auto;
     width: 60%;
 
-  }
 }
 
 .chat-section h1 {
@@ -131,7 +130,6 @@ h4 {
     font-size: 16px;
     border-radius: 7px;
     color: #fff;   
-    margin-top: 15px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -141,15 +139,20 @@ h4 {
     height: 200px;
     background-size: 100%;
     background-position: center;
-    background-color: red;
+    /* background-color: red; */
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 .chat-section .content-holder h1 {
-    float: left;
+    font-size: 64px;
+    color: #fff;
 }
 .chat-section .content-holder a {
-    float: right;
+    padding: 10px 25px;
 }
 
 
