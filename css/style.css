@@ -30,10 +30,44 @@ h4 {
     color: #363958;
 }
 
+/* menu bar */
+.menu-section {
+    padding: 50px 0px 90px 0px;
+}
+
+.menu-section .menu-holder {
+    float: right;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7%;
+    float: right;
+    padding-left: 2%;
+}
+
+.menu-section .menu-holder a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #3C3C3C;
+    font-weight: 600;
+}
+/* end of menu bar */
+
 
 /* top-banner */
 .top-banner {
     height: 80vmin;
+    overflow: auto;
+}
+
+.top-banner > :nth-child(1) {
+    float: left;
+    margin-left: 7%;
+}
+
+.top-banner > :nth-child(2) {
+    float: right;
+    margin-right: 7%;
 }
 
 .highlighted-text {
@@ -41,10 +75,9 @@ h4 {
 }
 
 .half-width {
-    margin-left: 5%;
     width: 40%;
     float: left;
-    padding-left: 2%;
+    padding-left: 1%;
 }
 .half-width img{
     width: 100%;
@@ -70,15 +103,27 @@ h4 {
 .about-section {
     height: 80vmin;
     padding-bottom: 50px;
+    overflow: auto;
+}
+
+.about-section > :nth-child(1) {
+    float: left;
+    margin-left: 7%;
+}
+
+.about-section > :nth-child(2) {
+    float: right;
+    margin-right: 7%;
 }
 /* end of about section */
 
 /* project-section */
 .project-section {
     background-color: #F8F9FC;
-    height: 80vmin;
+    height: 65vmin;
     padding: 10vmin;
 }
+
 .project-section >h2 {
     text-transform: uppercase;
     text-align: center;
@@ -89,9 +134,8 @@ h4 {
     width: 25%;
     float: left;
     padding-left: 2%;
-    /* border: 1px solid red; */
     padding: 13px 13px;
-    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
     border-radius: 19px;
     background-color: #fff;
 }
@@ -103,8 +147,9 @@ h4 {
 
 .project-section .projects {
     margin-top: 15vmin;
+    display: flex;
+    justify-content: space-between;
 }
-
 /* end of project-section */
 
 /* chat section */
@@ -131,7 +176,7 @@ h4 {
     border-radius: 7px;
     color: #fff;   
     font-family: 'Roboto', sans-serif;
-    padding: 10px 25px;
+    padding: 20px 35px;
     margin-bottom: 1.2%;
 }
 
@@ -141,8 +186,7 @@ h4 {
     height: 200px;
     background-size: 100%;
     background-position: center;
-    /* background-color: red; */
-    padding: 5%;
+    padding: 8%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,7 +196,6 @@ h4 {
 /* footer section */
 footer {
     text-align: center;
-    background-color:red;
     padding-bottom: 60px;
 }
 
@@ -162,6 +205,7 @@ footer h1{
 }
 
 footer h4{
+    margin-top: auto;
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
 }
@@ -169,14 +213,16 @@ footer h4{
 footer .icon-holder {
     display: flex;
     justify-content: center;
-    width: 15%;
+    width: 13%;
     margin: auto;
+    margin-top: -30px;
 }
 
 footer .icon-holder >div {
     padding: 0px 10px;
 }
+
 footer .icon-holder  img{
-    width: 60%;
+    width: 100%;
 }
 /* end of footer section */
