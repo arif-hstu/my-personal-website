@@ -47,13 +47,13 @@ h4 {
     color: white;            
     border-radius: 7px;
     display: block;
- }
+}
 
  .gradient-button:hover {
    background-position: right center;
    color: #fff;
    text-decoration: none;
- }
+}
 
 
 /* menu bar */
@@ -112,17 +112,6 @@ h4 {
 .half-width img{
     width: 100%;
 }
-/* .half-width a{  
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px 30px;
-    background-image: linear-gradient(to right, #FF8063, #F46060);
-    font-size: 16px;
-    border-radius: 7px;
-    color: #fff;   
-    margin-top: 15px;
-    font-family: 'Roboto', sans-serif;
-} */
 
 .half-width p{
     margin-bottom: 3%;
@@ -167,9 +156,7 @@ h4 {
 }
 
 .project-section .project {
-    /* margin-left: 5%; */
     width: 25%;
-    /* float: left; */
     padding-left: 1%;
     padding-right: 1%;
     padding: 13px 13px;
@@ -209,19 +196,6 @@ h4 {
     width: 100px;
 }
 
-/* .chat-section a{  
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px 30px;
-    background-image: linear-gradient(to right, #FF8063, #F46060);
-    font-size: 16px;
-    border-radius: 7px;
-    color: #fff;   
-    font-family: 'Roboto', sans-serif;
-    padding: 20px 35px;
-    margin-bottom: 1.2%;
-} */
-
 .chat-section .content-holder {
     background-image: url(../images/chat-holder.png);
     background-repeat: no-repeat;
@@ -249,20 +223,13 @@ h4 {
 }
 
 .experience-section .experience:hover {
-    /* background: #e1e1e1; */
     border-bottom: 3px solid #FF8367;
-}
-
-.experience-section .full-width {
-    /* width: 100%; */
-    /* padding-left: 1%; */
 }
 
 .experience-section .experience-container1 {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    /* background-color: red; */
 }
 
 .experience-section .experience-container1 .experience {
@@ -276,7 +243,6 @@ h4 {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    /* background-color: yellow; */
 }
 .experience-section .experience-container2 .experience {
     width: 30%;
