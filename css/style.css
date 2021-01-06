@@ -17,8 +17,6 @@ h2 {
     color: #363958;
 }
 
-
-
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -111,15 +109,17 @@ h4 {
 
 /* chat section */
 .chat-section {
-    height: 80vmin;
+    height: 28vmin;
     margin: auto;
     width: 60%;
-
+    padding: 50px 0px;
 }
 
 .chat-section h1 {
     font-size: 4vmin;
     text-transform: uppercase;
+    font-size: 64px;
+    color: #fff;
 }
 
 .chat-section a{  
@@ -131,6 +131,8 @@ h4 {
     border-radius: 7px;
     color: #fff;   
     font-family: 'Roboto', sans-serif;
+    padding: 10px 25px;
+    margin-bottom: 1.2%;
 }
 
 .chat-section .content-holder {
@@ -145,15 +147,36 @@ h4 {
     justify-content: space-between;
     align-items: center;
 }
-
-
-.chat-section .content-holder h1 {
-    font-size: 64px;
-    color: #fff;
-}
-.chat-section .content-holder a {
-    padding: 10px 25px;
-    margin-bottom: 1.2%;
-}
-
 /* end of chat section */
+
+/* footer section */
+footer {
+    text-align: center;
+    background-color:red;
+    padding-bottom: 60px;
+}
+
+footer h1{
+    font-size: 24px;
+    color: #696871;
+}
+
+footer h4{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .icon-holder {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: auto;
+}
+
+footer .icon-holder >div {
+    padding: 0px 10px;
+}
+footer .icon-holder  img{
+    width: 60%;
+}
+/* end of footer section */
