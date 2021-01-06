@@ -55,7 +55,6 @@ h4 {
    text-decoration: none;
 }
 
-
 /* menu bar */
 .menu-section {
     padding: 50px 0px 90px 0px;
@@ -214,8 +213,6 @@ h4 {
     text-align: center;
     height: 65vmin;
     padding: 10vmin;
-    /* display: flex;
-    justify-content: space-between; */
 }
 
 .experience-section .experience {
