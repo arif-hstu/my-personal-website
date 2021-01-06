@@ -132,7 +132,7 @@ h4 {
 .project-section .project {
     margin-left: 5%;
     width: 25%;
-    float: left;
+    /* float: left; */
     padding-left: 2%;
     padding: 13px 13px;
     box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
@@ -192,6 +192,45 @@ h4 {
     align-items: center;
 }
 /* end of chat section */
+
+/* experience section */
+.experience-section {
+    height: 65vmin;
+    padding: 10vmin;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.experience-section .full-width {
+    /* width: 100%; */
+    /* padding-left: 1%; */
+}
+
+.experience-section .experience-container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.experience-section .experience-container1 .experience {
+    width: 50%;
+}
+
+.experience-section .experience-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* background-color: yellow; */
+}
+.experience-section .experience-container2 .experience {
+    width: 50%;
+}
+
+.experience-section img {
+    width: 60%;
+}
+/* end of experience section */
 
 /* footer section */
 footer {
