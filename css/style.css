@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background-image: url(../images/bg0.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 
 h1 {
@@ -33,8 +33,8 @@ h4 {
     color: #363958;
 }
 
-
 .gradient-button {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97  51%, #DD5E89  100%)}
+
 .gradient-button {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -45,13 +45,12 @@ h4 {
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
+    border-radius: 7px;
     display: block;
  }
 
  .gradient-button:hover {
-   background-position: right center; /* change the direction of the change here */
+   background-position: right center;
    color: #fff;
    text-decoration: none;
  }
@@ -127,7 +126,11 @@ h4 {
 
 .half-width p{
     margin-bottom: 3%;
-}  
+}
+
+.about-section .gradient-button {
+    width: 150px;
+}
 /* end of top-banner */
 
 /* about section */
@@ -153,6 +156,9 @@ h4 {
     background-color: #F8F9FC;
     height: 65vmin;
     padding: 10vmin;
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
 }
 
 .project-section >h2 {
@@ -199,7 +205,11 @@ h4 {
     color: #fff;
 }
 
-.chat-section a{  
+.chat-section .gradient-button {
+    width: 100px;
+}
+
+/* .chat-section a{  
     display: inline-block;
     text-decoration: none;
     padding: 15px 30px;
@@ -210,7 +220,7 @@ h4 {
     font-family: 'Roboto', sans-serif;
     padding: 20px 35px;
     margin-bottom: 1.2%;
-}
+} */
 
 .chat-section .content-holder {
     background-image: url(../images/chat-holder.png);
